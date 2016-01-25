@@ -1,0 +1,5 @@
+services:
+    sniper.smiliesigns.listener:
+        class: sniper\smiliesigns\event\listener
+        tags:
+            - { name: event.listener }

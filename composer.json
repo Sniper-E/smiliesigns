@@ -1,0 +1,32 @@
+{
+	"name": "sniper/smiliesigns",
+	"type": "phpbb-extension",
+	"description": "This extension will add a custom Smilie Signs BBcodes in a dropdown box. An animated smilie will post holding a sign up with your message.",
+	"homepage": "http://sniper-e.com",
+	"version": "1.0.5",
+	"time": "2015-09-28",
+	"keywords": ["phpbb", "extension", "animated", "smilie", "signs"],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Sniper_E",
+			"homepage": "http://sniper-e.com",
+			"email": "sniper@sniper-e.com",
+			"role": "Extension Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"extra": {
+		"display-name": "Smilie Signs",
+		"soft-require": {
+			"phpbb/phpbb": "3.1.*"
+		},
+		"version-check": {
+			"host": "sniper-e.com",
+			"directory": "/versions",
+			"filename": "smiliesigns_version.json"
+		}
+	}
+}
