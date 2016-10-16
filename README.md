@@ -1,11 +1,11 @@
-# Smilie Signs
+# Smilie Signs Extension
 
 ## Install
 
 1. Download the latest release and unzip the downloaded release.
 2. Copy `sniper/smiliesigns/*.*` folder to your forum `root/ext/sniper/smiliesigns/*.*`
 5. Navigate in the ACP to `Customise -> Manage extensions`.
-6. Look for `Smilie Signs` under the Disabled Extensions list, and click its `Enable` link.
+6. Look for `Posting Buttons` under the Disabled Extensions list, and click its `Enable` link.
 
 ## Uninstall
 

@@ -1,81 +1,25 @@
-/* Background images for Smilie Signs dropdown bbCode selections */
-div.signs img { vertical-align: middle; }
-.sign { background: url("images/smilie_sign.gif") no-repeat center top;height: 31px;text-align: center;padding-top: 13px;font-size: 1.2em; }
-.acute { background: url("images/wood_pole_acute.gif") no-repeat center;height: 42px; }
-.aikido { background: url("images/wood_pole_aikido.gif") no-repeat center;height: 42px; }
-.bananas { background: url("images/wood_pole_bananas.gif") no-repeat center;height: 42px; }
-.banghead { background: url("images/wood_pole_banghead.gif") no-repeat center;height: 42px; }
-.bdaycake { background: url("images/wood_pole_bdaycake.gif") no-repeat center;height: 42px; }
-.bdaycandle { background: url("images/wood_pole_bdaycandle.gif") no-repeat center;height: 42px; }
-.beach { background: url("images/wood_pole_beach.gif") no-repeat center;height: 42px; }
-.beg { background: url("images/wood_pole_beg.gif") no-repeat center;height: 42px; }
-.beer { background: url("images/wood_pole_beer.gif") no-repeat center;height: 42px; }
-.big_boss { background: url("images/wood_pole_big_boss.gif") no-repeat center;height: 42px; }
-.blackeye { background: url("images/wood_pole_blackeye.gif") no-repeat center;height: 42px; }
-.blahblah { background: url("images/wood_pole_blahblah.gif") no-repeat center;height: 42px; }
-.blush { background: url("images/wood_pole_blush.gif") no-repeat center;height: 42px; }
-.borg_drone { background: url("images/wood_pole_borg_drone.gif") no-repeat center;height: 42px; }
-.byebye { background: url("images/wood_pole_byebye.gif") no-repeat center;height: 42px; }
-.cheers { background: url("images/wood_pole_cheers.gif") no-repeat center;height: 42px; }
-.clapping { background: url("images/wood_pole_clapping.gif") no-repeat center;height: 42px; }
-.club { background: url("images/wood_pole_club.gif") no-repeat center;height: 42px; }
-.coffee { background: url("images/wood_pole_coffee.gif") no-repeat center;height: 42px; }
-.cool { background: url("images/wood_pole_cool.gif") no-repeat center;height: 42px; }
-.cool2 { background: url("images/wood_pole_cool2.gif") no-repeat center;height: 42px; }
-.crap { background: url("images/wood_pole_crap.gif") no-repeat center;height: 42px; }
-.crazy { background: url("images/wood_pole_crazy.gif") no-repeat center;height: 42px; }
-.cry { background: url("images/wood_pole_cry.gif") no-repeat center;height: 42px; }
-.crybye { background: url("images/wood_pole_crybye.gif") no-repeat center;height: 42px; }
-.doh { background: url("images/wood_pole_doh.gif") no-repeat center;height: 42px; }
-.drag { background: url("images/wood_pole_drag.gif") no-repeat center;height: 42px; }
-.focus { background: url("images/wood_pole_focus.gif") no-repeat center;height: 42px; }
-.friends { background: url("images/wood_pole_friends.gif") no-repeat center;height: 42px; }
-.fright { background: url("images/wood_pole_fright.gif") no-repeat center;height: 42px; }
-.give_heart { background: url("images/wood_pole_give_heart.gif") no-repeat center;height: 42px; }
-.give_rose { background: url("images/wood_pole_give_rose.gif") no-repeat center;height: 42px; }
-.good { background: url("images/wood_pole_good.gif") no-repeat center;height: 42px; }
-.grin { background: url("images/wood_pole_grin.gif") no-repeat center;height: 42px; }
-.howdy { background: url("images/wood_pole_howdy.gif") no-repeat center;height: 42px; }
-.idk { background: url("images/wood_pole_idk.gif") no-repeat center;height: 42px; }
-.jaw { background: url("images/wood_pole_jaw.gif") no-repeat center;height: 42px; }
-.king { background: url("images/wood_pole_king.gif") no-repeat center;height: 42px; }
-.lol { background: url("images/wood_pole_lol.gif") no-repeat center;height: 42px; }
-.mail { background: url("images/wood_pole_mail.gif") no-repeat center;height: 42px; }
-.mad { background: url("images/wood_pole_mad.gif") no-repeat center;height: 42px; }
-.mexwave { background: url("images/wood_pole_mexwave.gif") no-repeat center;height: 42px; }
-.moon { background: url("images/wood_pole_moon.gif") no-repeat center;height: 42px; }
-.nono { background: url("images/wood_pole_nono.gif") no-repeat center;height: 42px; }
-.ok { background: url("images/wood_pole_ok.gif") no-repeat center;height: 42px; }
-.order { background: url("images/wood_pole_order.gif") no-repeat center;height: 42px; }
-.pardon { background: url("images/wood_pole_pardon.gif") no-repeat center;height: 42px; }
-.poke { background: url("images/wood_pole_poke.gif") no-repeat center;height: 42px; }
-.pole { background: url("images/wood_pole_pole.gif") no-repeat center;height: 42px; }
-.pump { background: url("images/wood_pole_pump.gif") no-repeat center;height: 42px; }
-.read { background: url("images/wood_pole_read.gif") no-repeat center;height: 42px; }
-.rofl { background: url("images/wood_pole_rofl.gif") no-repeat center;height: 42px; }
-.rolleyes { background: url("images/wood_pole_rolleyes.gif") no-repeat center;height: 42px; }
-.rotfl { background: url("images/wood_pole_rotfl.gif") no-repeat center;height: 42px; }
-.rules2 { background: url("images/wood_pole_rules2.gif") no-repeat center;height: 42px; }
-.scared { background: url("images/wood_pole_scared.gif") no-repeat center;height: 42px; }
-.scout { background: url("images/wood_pole_scout.gif") no-repeat center;height: 42px; }
-.scratch { background: url("images/wood_pole_scratch.gif") no-repeat center;height: 42px; }
-.search2 { background: url("images/wood_pole_search2.gif") no-repeat center;height: 42px; }
-.secret { background: url("images/wood_pole_secret.gif") no-repeat center;height: 42px; }
-.shock { background: url("images/wood_pole_shock.gif") no-repeat center;height: 42px; }
-.shout { background: url("images/wood_pole_shout.gif") no-repeat center;height: 42px; }
-.sleeping { background: url("images/wood_pole_sleeping.gif") no-repeat center;height: 42px; }
-.sorry { background: url("images/wood_pole_sorry.gif") no-repeat center;height: 42px; }
-.taunt { background: url("images/wood_pole_taunt.gif") no-repeat center;height: 42px; }
-.tease { background: url("images/wood_pole_tease.gif") no-repeat center;height: 42px; }
-.think { background: url("images/wood_pole_think.gif") no-repeat center;height: 42px; }
-.this { background: url("images/wood_pole_this.gif") no-repeat center;height: 42px; }
-.tongue { background: url("images/wood_pole_tongue.gif") no-repeat center;height: 42px; }
-.unsure { background: url("images/wood_pole_unsure.gif") no-repeat center;height: 42px; }
-.wacko { background: url("images/wood_pole_wacko.gif") no-repeat center;height: 42px; }
-.warning { background: url("images/wood_pole_warning.gif") no-repeat center;height: 42px; }
-.wave { background: url("images/wood_pole_wave.gif") no-repeat center;height: 42px; }
-.weirdo { background: url("images/wood_pole_weirdo.gif") no-repeat center;height: 42px; }
-.wink { background: url("images/wood_pole_wink.gif") no-repeat center;height: 42px; }
-.yahoo { background: url("images/wood_pole_yahoo.gif") no-repeat center;height: 42px; }
-.yes2 { background: url("images/wood_pole_yes2.gif") no-repeat center;height: 42px; }
-.zchair { background: url("images/wood_pole_zchair.gif") no-repeat center;height: 42px; }
+/**
+* @package Smilie Signs
+* @copyright (c) 2015 Sniper_E - http://sniper-e.com
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+*/
+
+/* Posted smilie sign custom classes */
+.custom-head { border: 1px solid #777; }
+.custom-inner { border: 1px solid #777; }
+.custom-img { }
+
+/* Smilie sign example on hover - To show smilie sign example on hover, remove code 'display: none;' at the end of lines 16, 17, 18 */
+#smiliesigns-posting-button #smiliesigns-example, #smiliesigns-index-button #smiliesigns-example { display: none;width: 220px;margin-top: -48px;margin-left: -138px; }
+#smiliesigns-pb-posting-button #smiliesigns-example, #smiliesigns-pb-index-button #smiliesigns-example { display: none;width: 220px;margin-top: -48px;margin-left: -138px; }
+#smiliesigns-abbc3-posting-button #smiliesigns-example, #smiliesigns-abbc3-index-button #smiliesigns-example { display: none;width: 220px;margin-top: -48px;margin-left: -138px; }
+#smiliesigns-posting-button:hover #smiliesigns-example, #smiliesigns-index-button:hover #smiliesigns-example { display: inline-block;position: absolute;z-index: 999;display: none; }
+#smiliesigns-pb-posting-button:hover #smiliesigns-example, #smiliesigns-pb-index-button:hover #smiliesigns-example { display: inline-block;position: absolute;z-index: 999;display: none; }
+#smiliesigns-abbc3-posting-button:hover #smiliesigns-example, #smiliesigns-abbc3-index-button:hover #smiliesigns-example { display: inline-block;position: absolute;z-index: 999;display: none; }
+
+/* Sign smilie selections */
+#smiliesigns-img { background-image:  url("./../../../images/smiliesigns.gif"); }
+#smiliesigns-posting-box { width: 18%;float: right;display: none; }
+#smiliesigns-index-box { width: 80%;margin: 0 auto;display: none; }
+.signs-posting-list { height: 260px;overflow-y: scroll;overflow-x: hidden; }
+.signs-index-list { height: 75px;overflow-y: scroll;overflow-x: hidden; }

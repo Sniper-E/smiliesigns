@@ -24,11 +24,11 @@ class update_table extends \phpbb\db\migration\migration
 			'sign=' => array(
 				'bbcode_helpline'		=> 'Smilie sign: [sign=name]text[/sign]',
 				'bbcode_match'			=> '[sign={SIMPLETEXT}]{TEXT}[/sign]',
-				'bbcode_tpl'			=> '<div style="display: inline-block;text-align: center">
-<div style="background: transparent url(./ext/sniper/smiliesigns/styles/all/theme/images/wood.gif);padding: 6px;margin: 0;border: 1px solid #000000;-webkit-border-radius: 28px;-o-border-radius: 28px;-moz-border-radius: 28px;border-radius: 28px;">
-<div class="signs" style="background: transparent url(./ext/sniper/smiliesigns/styles/all/theme/images/wood.jpg);color: #211200;font-size: 1em;font-weight: bold;text-align: left;padding: 10px;margin: 0;border: 1px solid #522601;-webkit-border-radius: 26px;-o-border-radius: 26px;-moz-border-radius: 26px;border-radius: 26px;">{TEXT}</div>
+				'bbcode_tpl'			=> '<div style="text-align: center;padding: 6px 6px 0;display: inline-block;">
+<div class="forabg custom-head" style="padding: 8px;margin: 0;-webkit-border-radius: 26px;-o-border-radius: 26px;-moz-border-radius: 26px;border-radius: 26px;">
+<div class="panel custom-inner" style="padding: 0 6px 2px;margin: 0;-webkit-border-radius: 20px;-o-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;">{TEXT}</div>
 </div>
-<div><img src="./ext/sniper/smiliesigns/styles/all/theme/images/wood_pole_{SIMPLETEXT}.gif" alt="" style="margin-top: -1px;" /></div>
+<div class="headerbar custom-img" style="padding: 0;background-size: 6px 42px;background-repeat: no-repeat;background-color: transparent;background-position: center top;"><img src="./ext/sniper/smiliesigns/images/sign_{SIMPLETEXT}.gif" alt="" /></div>
 </div>',
 			),
 		);
