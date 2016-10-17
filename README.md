@@ -1,5 +1,10 @@
 # Smilie Signs Extension
 
+## Discription
+
+This extension will add a sign button with a smilie bbcode selection box for signs, replaces the smilies box. An animated smilie will post holding a sign up with your message.
+<img src="http://sniper-e.com/images/sign_aciute.gif" alt="" />
+
 ## Install
 
 1. Download the latest release and unzip the downloaded release.
