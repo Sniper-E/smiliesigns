@@ -4,22 +4,26 @@
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
-/* Posted smilie sign custom classes */
+/* Posted smilie sign custom classes all styles */
 .custom-head { border: 1px solid #777; }
 .custom-inner { border: 1px solid #777; }
 .custom-img { }
 
-/* Smilie sign example on hover - To show smilie sign example on hover, remove code 'display: none;' at the end of lines 16, 17, 18 */
-#smiliesigns-posting-button #smiliesigns-example, #smiliesigns-index-button #smiliesigns-example { display: none;width: 220px;margin-top: -48px;margin-left: -138px; }
-#smiliesigns-pb-posting-button #smiliesigns-example, #smiliesigns-pb-index-button #smiliesigns-example { display: none;width: 220px;margin-top: -48px;margin-left: -138px; }
-#smiliesigns-abbc3-posting-button #smiliesigns-example, #smiliesigns-abbc3-index-button #smiliesigns-example { display: none;width: 220px;margin-top: -48px;margin-left: -138px; }
-#smiliesigns-posting-button:hover #smiliesigns-example, #smiliesigns-index-button:hover #smiliesigns-example { display: inline-block;position: absolute;z-index: 999;display: none; }
-#smiliesigns-pb-posting-button:hover #smiliesigns-example, #smiliesigns-pb-index-button:hover #smiliesigns-example { display: inline-block;position: absolute;z-index: 999;display: none; }
-#smiliesigns-abbc3-posting-button:hover #smiliesigns-example, #smiliesigns-abbc3-index-button:hover #smiliesigns-example { display: inline-block;position: absolute;z-index: 999;display: none; }
-
 /* Sign smilie selections */
 #smiliesigns-img { background-image:  url("./../../../images/smiliesigns.gif"); }
 #smiliesigns-posting-box { width: 18%;float: right;display: none; }
+#smiliesigns-viewtopic-box { width: 18%;float: right;display: none; }
 #smiliesigns-index-box { width: 80%;margin: 0 auto;display: none; }
 .signs-posting-list { height: 260px;overflow-y: scroll;overflow-x: hidden; }
-.signs-index-list { height: 75px;overflow-y: scroll;overflow-x: hidden; }
+.signs-viewtopic-list { height: 140px;overflow-y: scroll;overflow-x: hidden; }
+.signs-index-list { height: 85px;overflow-y: scroll;overflow-x: hidden; }
+
+/* Responsive */
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
+	#smiliesigns-posting-box { width: 98%;margin: 3px auto;float: left; }
+	#smiliesigns-viewtopic-box { width: 98%;margin: 3px auto;float: left; }
+	#smiliesigns-index-box { width: 98%; }
+	.signs-posting-list { height: 75px; }
+	.signs-viewtopic-list { height: 72px; }
+	.signs-index-list { height: 72px; }
+}

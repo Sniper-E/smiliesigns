@@ -1,13 +1,17 @@
 <!-- IF SCRIPT_NAME == "posting" or SCRIPT_NAME == "viewtopic" or SCRIPT_NAME == "index" -->
-<!-- IF SCRIPT_NAME == "posting" or SCRIPT_NAME == "viewtopic" -->
- 	<div id="smiliesigns-posting-box"<!-- IF SCRIPT_NAME == "viewtopic" --> style="margin-top: -85px;"<!-- ENDIF -->>
+	<!-- IF SCRIPT_NAME == "posting" -->
+		<div id="smiliesigns-posting-box">
 			<span title="{L_SIGNS_BBCODE_HELP}"><strong>{L_SIGN_BBODES}</strong></span>
- 			<div class="signs-posting-list"<!-- IF SCRIPT_NAME == "viewtopic" --> style="height: 185px;"<!-- ENDIF -->>
-<!-- ELSEIF SCRIPT_NAME == "index" -->
- 	<div id="smiliesigns-index-box">
+			<div class="signs-posting-list">
+	<!-- ELSEIF SCRIPT_NAME == "viewtopic" -->
+		<div id="smiliesigns-viewtopic-box">
 			<span title="{L_SIGNS_BBCODE_HELP}"><strong>{L_SIGN_BBODES}</strong></span>
- 			<div class="signs-index-list">
-<!-- ENDIF -->
+			<div class="signs-viewtopic-list">
+	<!-- ELSEIF SCRIPT_NAME == "index" -->
+		<div id="smiliesigns-index-box">
+			<span title="{L_SIGNS_BBCODE_HELP}"><strong>{L_SIGN_BBODES}</strong></span>
+			<div class="signs-index-list">
+	<!-- ENDIF -->
 			<a herf="" onclick="bbfontstyle('[sign=acute]', '[/sign]');"><img src="{ROOT_PATH}ext/sniper/smiliesigns/images/icons/acute.gif" alt="" title="{L_ACUTE_TITLE}" /></a>
 			<a herf="" onclick="bbfontstyle('[sign=aggressive]', '[/sign]');"><img src="{ROOT_PATH}ext/sniper/smiliesigns/images/icons/aggressive.gif" alt="" title="{L_AGGRESSIVE_TITLE}" /></a>
 			<a herf="" onclick="bbfontstyle('[sign=agree]', '[/sign]');"><img src="{ROOT_PATH}ext/sniper/smiliesigns/images/icons/agree.gif" alt="" title="{L_AGREE_TITLE}" /></a>
@@ -121,6 +125,6 @@
 			<a herf="" onclick="bbfontstyle('[sign=yahoo]', '[/sign]');"><img src="{ROOT_PATH}ext/sniper/smiliesigns/images/icons/yahoo.gif" alt="" title="{L_YAHOO_TITLE}" /></a>
 			<a herf="" onclick="bbfontstyle('[sign=yes]', '[/sign]');"><img src="{ROOT_PATH}ext/sniper/smiliesigns/images/icons/yes.gif" alt="" title="{L_YES2_TITLE}" /></a>
 			<a herf="" onclick="bbfontstyle('[sign=zchair]', '[/sign]');"><img src="{ROOT_PATH}ext/sniper/smiliesigns/images/icons/zchair.gif" alt="" title="{L_ZCHAIR_TITLE}" /></a>
- 			</div>
-	</div>
+			</div>
+		</div>
 <!-- ENDIF -->

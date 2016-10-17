@@ -1,23 +1,16 @@
 <!-- IF SCRIPT_NAME == "posting" -->
-		<script>function toggle_smiliesigns_posting_box() { var x = document.getElementById('smiliesigns-posting-box'); if (x.style.display === 'block') { x.style.display = 'none';document.getElementById('smiley-box').style = 'display:block';document.getElementById('smilies-posting-button').title = '{L_SMILIESIGNS_BBCODE_HELP}'; } else { x.style.display = 'block';document.getElementById('smiley-box').style = 'display:none';document.getElementById('smilies-posting-button').title = '{L_SMILIES_BBCODE_HELP}'; } }</script>
+	<script>function toggle_smiliesigns_posting_box() { var x = document.getElementById('smiliesigns-posting-box'); if (x.style.display === 'block') { x.style.display = 'none';document.getElementById('smiley-box').style.display = 'block';document.getElementById('smilies-posting-button').title = '{L_SMILIESIGNS_BBCODE_HELP}'; } else { x.style.display = 'block';document.getElementById('smiley-box').style.display = 'none';document.getElementById('smilies-posting-button').title = '{L_SMILIES_BBCODE_HELP}'; } }</script>
 		<span id="smiliesigns-posting-button" title="{L_SMILIESIGNS_BBCODE_HELP}">
 			<input id="smilies-posting-button" class="button2" name="smilie_signs" value="Signs" onclick="toggle_smiliesigns_posting_box();" type="button" />
-			<div id="smiliesigns-example">
-				<div class="forabg custom-head" style="padding: 8px;margin: 0;border: 1px solid #777;-webkit-border-radius: 26px;-o-border-radius: 26px;-moz-border-radius: 26px;border-radius: 26px;">
-					<div class="panel custom-inner" style="text-align: center;padding: 2px 6px;margin: 0;border: 1px solid #777;-webkit-border-radius: 20px;-o-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;">This is an example Smilie Sign</div>
-				</div>
-				<div class="custom-img" style="width: 220px;;text-align: center"><img src="http://sniper-e.com/ext/sniper/smiliesigns/images/sign_pole.gif" alt="" /></div>
-			</div>
+		</span>
+<!-- ELSEIF SCRIPT_NAME == "viewtopic" -->
+	<script>function toggle_smiliesigns_viewtopic_box() { var x = document.getElementById('smiliesigns-viewtopic-box'); if (x.style.display === 'block') { x.style.display = 'none';document.getElementById('smiley-box').style.display = 'block';document.getElementById('smilies-viewtopic-button').title = '{L_SMILIESIGNS_BBCODE_HELP}'; } else { x.style.display = 'block';document.getElementById('smiley-box').style.display = 'none';document.getElementById('smilies-viewtopic-button').title = '{L_SMILIES_BBCODE_HELP}'; } }</script>
+		<span id="smiliesigns-viewtopic-button" title="{L_SMILIESIGNS_BBCODE_HELP}">
+			<input id="smilies-viewtopic-button" class="button2" name="smilie_signs" value="Signs" onclick="toggle_smiliesigns_viewtopic_box();" type="button" />
 		</span>
 <!-- ELSEIF SCRIPT_NAME == "index" -->
-		<script>function toggle_smiliesigns_index_box() { var x = document.getElementById('smiliesigns-index-box'); if (x.style.display === 'block') { x.style.display = 'none';document.getElementById('mchat-smilies').style = 'display:block';document.getElementById('smilies-index-button').title = '{L_SMILIESIGNS_BBCODE_HELP}'; } else { x.style.display = 'block';document.getElementById('mchat-smilies').style = 'display:none';document.getElementById('smilies-index-button').title = '{L_SMILIES_BBCODE_HELP}'; } }</script>
+	<script>function toggle_smiliesigns_index_box() { var x = document.getElementById('smiliesigns-index-box'); if (x.style.display === 'block') { x.style.display = 'none';document.getElementById('mchat-smilies').style.display = 'block';document.getElementById('smilies-index-button').title = '{L_SMILIESIGNS_BBCODE_HELP}'; } else { x.style.display = 'block';document.getElementById('mchat-smilies').style.display = 'none';document.getElementById('smilies-index-button').title = '{L_SMILIES_BBCODE_HELP}'; } }</script>
 		<span id="smiliesigns-index-button" title="{L_SMILIESIGNS_BBCODE_HELP}">
 			<input id="smilies-index-button" class="button2" name="smilie_signs" value="Signs" onclick="toggle_smiliesigns_index_box();" type="button" />
-			<div id="smiliesigns-example">
-				<div class="forabg custom-head" style="padding: 8px;margin: 0;border: 1px solid #777;-webkit-border-radius: 26px;-o-border-radius: 26px;-moz-border-radius: 26px;border-radius: 26px;">
-					<div class="panel custom-inner" style="text-align: center;padding: 2px 6px;margin: 0;border: 1px solid #777;-webkit-border-radius: 20px;-o-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;">This is an example Smilie Sign</div>
-				</div>
-				<div class="custom-img" style="width: 220px;;text-align: center"><img src="http://sniper-e.com/ext/sniper/smiliesigns/images/sign_pole.gif" alt="" /></div>
-			</div>
 		</span>
 <!-- ENDIF -->
