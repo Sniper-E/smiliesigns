@@ -3,7 +3,7 @@
 	"type": "phpbb-extension",
 	"description": "This extension will add a sign button with a smilie bbcode selection box for signs, replaces the smilies box. An animated smilie will post holding a sign up with your message.",
 	"homepage": "http://sniper-e.com",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"time": "2015-09-28",
 	"keywords": ["phpbb", "extension", "animated", "smilie", "signs"],
 	"license": "GPL-2.0",
