@@ -21,7 +21,7 @@
 	"extra": {
 		"display-name": "Smilie Signs",
 		"soft-require": {
-			"phpbb/phpbb": ">=3.1.9"
+			"phpbb/phpbb": ">=3.1.2-RC1"
 		},
 		"version-check": {
 			"host": "sniper-e.com",
