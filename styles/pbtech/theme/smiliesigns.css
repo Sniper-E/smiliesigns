@@ -6,7 +6,7 @@
 
 /* Posted smilie sign custom classes pbtech style */
 .sign-wrap { text-align: center;padding:0;display: inline-block; }
-.sign-head { background-color: #AAAAAA !important;border: 1px solid #777;padding: 8px 8px 4px;margin: 6px 6px 0 !important;-webkit-border-radius: 26px;-o-border-radius: 26px;-moz-border-radius: 26px;border-radius: 26px; }
+.sign-head { background-color: #0098CC !important;border: 1px solid #777;padding: 8px;margin: 6px 6px 0 !important;-webkit-border-radius: 26px;-o-border-radius: 26px;-moz-border-radius: 26px;border-radius: 26px; }
 .sign-inner { border: 1px solid #777;padding: 0 6px 2px !important;margin: 0;-webkit-border-radius: 20px;-o-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px; }
 .sign-img { background-image:  url("./../../../../../../styles/pbtech/theme/images/bg.jpg");padding: 0;margin: 0 !important;background-size: 6px 42px;background-repeat: no-repeat;background-color: transparent;background-position: center top; }
 .sign-inner img { vertical-align: middle; }
@@ -36,10 +36,6 @@
 	#smiliesigns-example-posting-box { width: 98%;margin: 3px auto;float: left;; }
 	#smiliesigns-example-viewtopic-box { width: 98%;margin: 3px auto;float: left; }
 	#smiliesigns-example-index-box { width: 98%; }
-	.signs-posting-list { height: 75px; }
-	.signs-viewtopic-list { height: 72px; }
-	.signs-index-list { height: 72px; }
-	.signs-example-posting-list { height: 75px; }
-	.signs-example-viewtopic-list { height: 72px; }
-	.signs-example-index-list { height: 72px; }
 }
+
+.progress-head { background-color: #AAAAAA !important; }

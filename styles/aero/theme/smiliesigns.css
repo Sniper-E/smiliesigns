@@ -36,10 +36,6 @@
 	#smiliesigns-example-posting-box { width: 98%;margin: 3px auto;float: left;; }
 	#smiliesigns-example-viewtopic-box { width: 98%;margin: 3px auto;float: left; }
 	#smiliesigns-example-index-box { width: 98%; }
-	.signs-posting-list { height: 75px; }
-	.signs-viewtopic-list { height: 72px; }
-	.signs-index-list { height: 72px; }
-	.signs-example-posting-list { height: 75px; }
-	.signs-example-viewtopic-list { height: 72px; }
-	.signs-example-index-list { height: 72px; }
 }
+
+.progress-head { background-color: #C3C3C3 !important; }
