@@ -25,8 +25,8 @@ class update_table extends \phpbb\db\migration\migration
 				'bbcode_helpline'		=> 'Smilie sign: [sign=name]text[/sign]',
 				'bbcode_match'			=> '[sign={SIMPLETEXT}]{TEXT}[/sign]',
 				'bbcode_tpl'			=> '<div style="text-align: center;padding: 6px 6px 0;display: inline-block;" class="sign-wrap">
-<div style="padding: 8px;margin: 0;-webkit-border-radius: 26px;-o-border-radius: 26px;-moz-border-radius: 26px;border-radius: 26px;" class="forabg sign-head">
-<div style="padding: 0 6px 2px;margin: 0;-webkit-border-radius: 20px;-o-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;" class="panel sign-inner">{TEXT}</div>
+<div style="padding: 8px;margin: 0;-webkit-border-radius: 20px;-o-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;" class="forabg sign-head">
+<div style="padding: 2px 6px;margin: 0;-webkit-border-radius: 18px;-o-border-radius: 18px;-moz-border-radius: 18px;border-radius: 18px;" class="panel sign-inner">{TEXT}</div>
 </div>
 <div style="padding: 0;background-size: 6px 42px;background-repeat: no-repeat;background-color: transparent;background-position: center top;" class="forumbg sign-img"><img src="./ext/sniper/smiliesigns/images/sign_{SIMPLETEXT}.gif" alt="" /></div>
 </div>',
