@@ -8,7 +8,7 @@
 .sign-wrap { text-align: center;padding:0;display: inline-block; }
 .sign-head { background-color: #C3C3C3 !important;border: 1px solid #777;padding: 8px;margin: 6px 6px 0 !important;-webkit-border-radius: 20px !important;-o-border-radius: 20px !important;-moz-border-radius: 20px !important;border-radius: 20px !important; }
 .sign-inner { border: 1px solid #777;padding:  2px 6px !important;margin: 0;-webkit-border-radius: 18px !important;-o-border-radius: 18px !important;-moz-border-radius: 18px !important;border-radius: 18px !important; }
-.sign-img { background-image:  url("./../../../../../../styles/aero black/theme/images/bg_black.gif");posistion: bottom center;padding: 0;margin: 0 !important;background-size: 6px 42px;background-repeat: no-repeat;background-color: transparent;background-position: center top;border: none;box-shadow: none }
+.sign-img { background-image:  url("./../../../../../../styles/aero_black/theme/images/bg_black.gif");posistion: bottom center;padding: 0;margin: 0 !important;background-size: 6px 42px;background-repeat: no-repeat;background-color: transparent;background-position: center top;border: none;box-shadow: none }
 .sign-inner img { vertical-align: middle; }
 
 /* Smilie signs selections */
