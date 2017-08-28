@@ -4,11 +4,11 @@
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
-/* Posted smilie sign custom classes all styles */
+/* Posted smilie sign custom classes - Absolution style */
 .sign-wrap { text-align: center;padding:0;display: inline-block; }
-.sign-head { box-shadow: none;padding: 8px;margin: 6px 6px 0 !important;-webkit-border-radius: 20px !important;-o-border-radius: 20px !important;-moz-border-radius: 20px !important;border-radius: 20px !important; }
-.sign-inner { border: 1px solid #777;padding:  2px 6px !important;margin: 0;box-shadow: none;-webkit-border-radius: 18px !important;-o-border-radius: 18px !important;-moz-border-radius: 18px !important;border-radius: 18px !important; }
-.sign-img { padding: 0;margin: 0 !important;border: none;box-shadow: none;background-size: 6px 42px;background-repeat: no-repeat;background-color: transparent;background-position: center top; }
+.sign-head { background-color: #C3C3C3;background-image:  url("./../../../../../../styles/Absolution/theme/images/bg_header.gif");background-position: top right;border: 1px solid #777;padding: 10px;min-height: 20px;margin: 6px 6px 0 !important;-webkit-border-radius: 20px !important;-o-border-radius: 20px !important;-moz-border-radius: 20px !important;border-radius: 20px !important;background-repeat: repeat; }
+.sign-inner { border: 1px solid #777;padding:  6px 10px !important;margin: 0;-webkit-border-radius: 10px !important;-o-border-radius: 10px !important;-moz-border-radius: 10px !important;border-radius: 14px !important; }
+.sign-img { background-image:  url("./../../../../../../styles/Absolution/theme/images/bg_list.gif");padding: 0;margin: 0 !important;background-size: 6px 42px;background-repeat: no-repeat;background-color: transparent;background-position: center top;border: none;box-shadow: none }
 .sign-inner img { vertical-align: middle; }
 
 /* Smilie signs selections */
