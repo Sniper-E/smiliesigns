@@ -1,0 +1,45 @@
+/**
+* @package Smilie Signs
+* @copyright (c) 2015 Sniper_E - http://sniper-e.com
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+*/
+
+/* Posted smilie sign custom classes - Absolution style */
+.sign-wrap { text-align: center;padding:0;display: inline-block; }
+.sign-head { background-color: #C3C3C3;background-image:  url("./../../../../../../styles/Absolution/theme/images/bg_header.gif");background-position: top right;border: 1px solid #777;padding: 10px;min-height: 20px;margin: 6px 6px 0 !important;-webkit-border-radius: 20px !important;-o-border-radius: 20px !important;-moz-border-radius: 20px !important;border-radius: 20px !important;background-repeat: repeat; }
+.sign-inner { border: 1px solid #777;padding:  6px 10px !important;margin: 0;-webkit-border-radius: 10px !important;-o-border-radius: 10px !important;-moz-border-radius: 10px !important;border-radius: 14px !important; }
+.sign-img { background-image:  url("./../../../../../../styles/Absolution/theme/images/bg_list.gif");padding: 0;margin: 0 !important;background-size: 6px 42px;background-repeat: no-repeat;background-color: transparent;background-position: center top;border: none;box-shadow: none }
+.sign-inner img { vertical-align: middle; }
+
+/* Smilie signs selections */
+#smiliesigns-img { background-image:  url("./../../../images/smiliesigns.gif"); }
+#smiliesigns-posting-box { width: 18%;float: right;display: none; }
+#smiliesigns-viewtopic-box { width: 18%;float: right;display: none; }
+#smiliesigns-index-box { width: 80%;margin: 0 auto;display: none; }
+#smiliesigns-portal-box { width: 80%;margin: 0 auto;display: none; }
+.signs-posting-list { height: 260px;overflow-y: scroll;overflow-x: hidden; }
+.signs-viewtopic-list { height: 140px;overflow-y: scroll;overflow-x: hidden; }
+.signs-index-list { height: 80px;overflow-y: scroll;overflow-x: hidden; }
+.signs-portal-list { height: 75px;overflow-y: scroll;overflow-x: hidden; }
+
+/* Smilie signs examples */
+#smiliesigns-example-posting-box { width: 80%float: left;;display: none; }
+#smiliesigns-example-viewtopic-box { width: 80%;float: left;display: none; }
+#smiliesigns-example-index-box { width: 80%;margin: 0 auto;display: none; }
+#smiliesigns-example-portal-box { width: 80%;margin: 0 auto;display: none; }
+.signs-example-posting-list { height: 90px;overflow-y: scroll;overflow-x: hidden; }
+.signs-example-viewtopic-list { height: 90px;overflow-y: scroll;overflow-x: hidden; }
+.signs-example-index-list { height: 90px;overflow-y: scroll;overflow-x: hidden; }
+.signs-example-portal-list { height: 90px;overflow-y: scroll;overflow-x: hidden; }
+
+/* Responsive */
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
+	#smiliesigns-posting-box { width: 98%;margin: 3px auto;float: left; }
+	#smiliesigns-viewtopic-box { width: 98%;margin: 3px auto;float: left; }
+	#smiliesigns-index-box { width: 98%; }
+	#smiliesigns-portal-box { width: 98%; }
+	#smiliesigns-example-posting-box { width: 98%;margin: 3px auto;float: left;; }
+	#smiliesigns-example-viewtopic-box { width: 98%;margin: 3px auto;float: left; }
+	#smiliesigns-example-index-box { width: 98%; }
+	#smiliesigns-example-portal-box { width: 98%; }
+}
