@@ -1,0 +1,73 @@
+{% INCLUDE 'overall_header.html' %}
+
+<div id="unique_smiliesigns">
+	<div class="sign-header">
+		<div class="sign-panel">{{ lang('SMILIESIGNS_DEMO') }}{USERNAME}{{ lang('SMILIESIGNS_DEMO_CLOSE') }}</div>
+	</div>
+	<div class="sign-img">
+		<img class="smilie-img" src="./../ext/sniper/smiliesigns/images/sign_this.gif" alt="" />
+	</div>
+</div>
+
+<h1>{{ lang('ACP_SMILIESIGNS_TITLE') }}</h1>
+<p><img src="https://img.shields.io/badge/{{ lang('VERSION') }}-{{ SMILIESIGNS_VERSION }}-green.svg?style=plastic" /></p>
+<form id="acp_smiliesigns" method="post" action="{{ U_ACTION }}">
+	<fieldset>
+		<legend class="button1"><i class="icon fa-cog" style="font-size: 21px" aria-hidden="true"></i> {{ lang('ACP_SMILIESIGNS_SETTINGS') }}</legend>
+		<dl>
+			<dt>
+				<label for="smiliesigns_allow">{{ lang('SMILIESIGNS_ALLOW') }}{{ lang('COLON') }}</label><span>{{ lang('SMILIESIGNS_ALLOW_EXPLAIN') }}</span>
+			</dt>
+			<dd>
+				<label><input type="radio" id="smiliesigns_allow" class="radio" name="smiliesigns_allow" value="1"{% if SMILIESIGNS_ALLOW %} checked="checked"{% endif %} title="{{ lang('SMILIESIGNS_ALLOW') }}" /> {{ lang('SMILIESIGNS_ACTIVATE') }}</label>
+				<label><input type="radio" class="radio" name="smiliesigns_allow" value="0"{% if not SMILIESIGNS_ALLOW %} checked="checked"{% endif %} title="{{ lang('SMILIESIGNS_DENY') }}" /> {{ lang('SMILIESIGNS_DEACTIVATE') }}</label>
+			</dd>
+		</dl>
+	</fieldset>
+	<fieldset>
+		<legend><i class="icon fa-stack-overflow" style="font-size: 21px" aria-hidden="true"></i> {{ lang('SMILIESIGNS_POPUP') }}</legend>
+		<dl>
+			<dt>
+				<label>{{ lang('SMILIESIGNS_VALUE') }}{{ lang('COLON') }}</label><span>{{ lang('SMILIESIGNS_VALUE_EXPLAIN') }}</span>
+			</dt>
+			<dd>
+				<input type="number" name="smiliesigns_value" value="{{ SMILIESIGNS_VALUE }}" min="29" max="114" title="{{ lang('SMILIESIGNS_VALUE') }}" style="text-align:center;" /> {{ lang('SMILIESIGNS_PER') }}
+			</dd>
+		</dl>
+		<dl>
+			<dt>
+				<label>{{ lang('SMILIESIGNS_WIDTH') }}{{ lang('COLON') }}</label><span>{{ lang('SMILIESIGNS_WIDTH_EXPLAIN') }}</span>
+			</dt>
+			<dd>
+				<input type="number" name="smiliesigns_width" value="{{ SMILIESIGNS_WIDTH }}" min="500" max="1920" title="{{ lang('SMILIESIGNS_WIDTH') }}" style="text-align:center;" /> {{ lang('SMILIESIGNS_PX') }}
+			</dd>
+		</dl>
+		<dl>
+			<dt>
+				<label>{{ lang('SMILIESIGNS_HEIGHT') }}{{ lang('COLON') }}</label><span>{{ lang('SMILIESIGNS_HEIGHT_EXPLAIN') }}</span>
+			</dt>
+			<dd>
+				<input type="number" name="smiliesigns_height" value="{{ SMILIESIGNS_HEIGHT }}" min="300" max="1080" title="{{ lang('SMILIESIGNS_HEIGHT') }}" style="text-align:center;" /> {{ lang('SMILIESIGNS_PX') }}
+			</dd>
+		</dl>
+	</fieldset>
+	<fieldset>
+		<legend><i class="icon fa-check-circle" style="font-size: 21px" aria-hidden="true"></i> {{ lang('SUBMIT_CHANGES') }}</legend>
+		<dl>
+			<dt></dt>
+			<dd>
+				<div id="unique_smiliesigns_submit" class="sign-submit">
+					<div class="sign-header sign-submit">
+						<div class="sign-panel sign-submit"><input class="sign-submit button1" type="submit" id="submit" name="submit" value="{{ lang('SUBMIT') }}" title="{{ lang('SUBMIT_CHANGES') }}" /></div>
+					</div>
+					<div class="sign-img">
+						<img class="smilie-img" src="./../ext/sniper/smiliesigns/images/sign_blush.gif" alt="" />
+					</div>
+				</div>
+			</dd>
+		</dl>
+	</fieldset>
+	{{ S_FORM_TOKEN }}
+</form>
+
+{% INCLUDE 'overall_footer.html' %}

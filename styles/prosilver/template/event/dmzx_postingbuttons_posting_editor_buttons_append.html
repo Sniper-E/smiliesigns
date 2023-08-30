@@ -1,0 +1,3 @@
+{% if U_USE_SMILIE_SIGNS_BBCODE && S_BBCODE_ALLOWED %}
+	<input type="button" class="postingbuttons" id="pb_smiliesigns-button" name="smiliesigns-pb" value="&#160;" onclick="popup_smiliecenter('./app.php/smiliesigns', {{ SMILIESIGNS_WIDTH }}, {{ SMILIESIGNS_HEIGHT }}, '_smiliesigns'); return false;" title="{{ lang('SMILIE_SIGNS_HELP') }}" />
+{% endif %}

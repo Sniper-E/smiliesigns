@@ -1,0 +1,2 @@
+parameters:
+    sniper.smiliesigns.table.smiliesigns: '%core.table_prefix%smiliesigns'

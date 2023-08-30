@@ -1,0 +1,38 @@
+{% INCLUDE 'simple_header.html' %}
+<script>
+	var form_name = opener.form_name;
+	var text_name = opener.text_name;
+</script>
+
+<div class="forabg sign-forabg">
+	<div class="list-inner sign-header" title="{{ lang('SMILIE_SIGNS_CREDIT') }}">
+		<h1>{{ lang('SMILIE_SIGNS_TITLE') }} {{ SMILIESIGNS_VERSION }}</h1>
+	</div>
+	<div class="panel sign-panel">
+	{% for smiliesigns in loops.smiliesigns %}
+		<a onclick="window.close();opener.insert_text('[sign={{ smiliesigns.SMILIE_NAME }}] [/sign]', true, false)" title="[sign={{ smiliesigns.SMILIE_NAME }}]{{ lang('SMILIESIGNS_MESSAGE') }}[/sign]"
+		{% if MCHAT_INDEX %} data-mchat-action="toggle" data-mchat-element="bbcodes"{% endif %}>
+			<div class="sign-wrap">
+				<div class="forabg sign-head">
+					<div class="panel signs-panel col2">{{ smiliesigns.SMILIE_NAME }}</div>
+				</div>
+				<div class="forumbg sign-img">
+					<img class="smilie-img" src="{BOARD_URL}ext/sniper/smiliesigns/images/sign_{{ smiliesigns.SMILIE_NAME }}.gif" alt="" />
+				</div>
+			</div>
+		</a>
+	{% endfor %} 
+	</div>
+</div>
+
+<div class="action-bar bottom">
+	<div class="pagination">
+		{{ SMILIESIGNS_COUNT }}
+		{% if loops.pagination|length %}
+			{% INCLUDE 'pagination.html' %}
+		{% endif %}
+	</div>
+	<a class="button" onclick="window.close(); return false;">{{ lang('CLOSE_WINDOW') }}</a>
+</div>
+
+{% INCLUDE 'simple_footer.html' %}

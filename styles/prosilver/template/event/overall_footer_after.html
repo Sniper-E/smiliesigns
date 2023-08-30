@@ -1,0 +1,10 @@
+{% if U_USE_SMILIE_SIGNS_BBCODE && S_BBCODE_ALLOWED %}
+<script>
+//Open popup center window
+	function popup_smiliecenter(s) {
+                var h = {{ SMILIESIGNS_HEIGHT }},
+                    w = {{ SMILIESIGNS_WIDTH }};
+		window.open(s, '', 'scrollbars=1, menubar=no, toolbar=no, location=no, height='+Math.min(h, screen.availHeight)+',width='+Math.min(w, screen.availWidth)+',left='+Math.max(0, (screen.availWidth - w)/2)+',top='+Math.max(0, (screen.availHeight - h)/3));
+	}
+</script>
+{% endif %}

@@ -1,5 +1,36 @@
+imports:
+    - { resource: tables.yml }
 services:
+    sniper.smiliesigns.controller:
+        class: sniper\smiliesigns\controller\smiliesigns
+        arguments:
+            - '@template'
+            - '@user'
+            - '@auth'
+            - '@dbal.conn'
+            - '@request'
+            - '@pagination'
+            - '@controller.helper'
+            - '@config'
+            - '%sniper.smiliesigns.table.smiliesigns%'
     sniper.smiliesigns.listener:
         class: sniper\smiliesigns\event\listener
+        arguments:
+            - '@auth'
+            - '@template'
+            - '@user'
+            - '@dbal.conn'
+            - '@request'
+            - '@config'
+            - '@controller.helper'
         tags:
             - { name: event.listener }
+    sniper.smiliesigns.admin.controller:
+        class: sniper\smiliesigns\controller\admin_controller
+        arguments:
+            - '@template'
+            - '@user'
+            - '@auth'
+            - '@request'
+            - '@config'
+            - '@log'

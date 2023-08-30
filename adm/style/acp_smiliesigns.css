@@ -1,0 +1,141 @@
+/**
+* @package Smilie Signs
+* @copyright (c) 2015 Sniper_E - http://sniper-e.net
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+*/
+
+/* Posted smilie sign custom classes prosilver styles */
+#unique_smiliesigns {
+	float: right;
+	padding: 0;
+	margin-bottom: -25px;
+}
+
+.sign-wrap {
+	display: inline-block;
+	text-align: center;
+	padding:0;
+}
+
+.sign-header {
+	background-color: #4A719E;
+	background-image: -webkit-linear-gradient(top, #7A9CC2 0%, #4A719E 100%);
+	background-image: linear-gradient(to bottom, #7A9CC2 0%,#4A719E 100%);
+	padding: 6px;
+	margin: 0;
+	border-radius: 12px;
+}
+
+.sign-panel {
+	background-color: #fff;
+	color: #115098;
+	padding: 2px 6px 4px;
+	border-radius: 7px;
+}
+
+.sign-img {
+	text-align: center;
+	background-image: -webkit-linear-gradient(top, #4A719E 0%, #7A9CC2 100%);
+	background-image: linear-gradient(to bottom, #4A719E 0%,#7A9CC2 100%);
+	background-size: 6px 28px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: center top;
+}
+
+.smilie-img {
+	margin-top: -14px;
+	z-index: 1;
+}
+
+.sign-inner img {
+	vertical-align: middle;
+}
+
+input.sign-submit.button1 {
+	background: transparent;
+	color: #115098;
+	padding: 0;
+	margin: 0 2px;
+	border: none;
+}
+
+input.sign-submit.button1:hover {
+	color: #AA0000;
+}
+
+#unique_smiliesigns_submit {
+	float: left;
+	padding: 0;
+}
+
+#unique_smiliesigns_submit.sign-submit {
+	margin: 0;
+}
+
+.sign-panel.sign-submit {
+	padding: 0 6px 4px 5px;
+}
+
+/* Smilie signs selections */
+.button {
+	height: 20px;
+}
+
+#acp_smiliesigns fieldset {
+	border-radius: 15px;
+	box-shadow: 2px 2px #ccc;
+	margin-top: 15px;
+}
+
+#acp_smiliesigns legend {
+	top: 0.10em;
+	background-color: #fff;
+	padding: 5px 8px 7px;
+	width: auto;
+	border-radius: 15px;
+	border: 1px solid #d7d7d7;
+	box-shadow: 2px 2px #ddd;
+}
+
+#acp_smiliesigns fieldset dt {
+	border-right: none;
+}
+
+#acp_smiliesigns dl {
+	background: #F3F3F3 url("./../../../../../adm/images/innerbox_bg.gif") repeat-x bottom;
+	padding: 2px 10px;
+	border-radius: 10px;
+	box-shadow: 2px 2px #ccc;
+}
+
+/* Extension classes */
+#pb_smiliesigns-img, #abbc3_smiliesigns-img {
+	background-image:  url("./../../images/smiliesigns.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 28px;
+	height: 23px;
+	cursor: pointer;
+}
+
+#abbc3_smiliesigns-img.abbc3_button {
+	border: none !important;
+	height: 22px;
+}
+
+#abbc3_smiliesigns-img.abbc3_button:hover {
+	border: 1px solid #aa0000 !important;
+	border-radius: 0 !important;
+}
+
+#pb_smiliesigns-img.postingbuttons {
+	width: 28px !important;
+	border-radius: 0 !important;
+}
+
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
+    #unique_smiliesigns {
+        margin-bottom: -5px;
+    }
+}

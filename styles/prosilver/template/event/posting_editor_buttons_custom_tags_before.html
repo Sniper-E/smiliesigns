@@ -1,21 +1,5 @@
-<!-- IF SCRIPT_NAME == "posting" -->
-	<script>function toggle_smiliesigns_posting_box() { var x = document.getElementById('smiliesigns-posting-box'); if (x.style.display === 'block') { x.style.display = 'none';document.getElementById('smiley-box').style.display = 'block';document.getElementById('smiliesigns-posting-button').title = '{L_SMILIESIGNS_BBCODE_HELP}';document.getElementById('smiliesigns-example-posting-box').style.display = 'none';document.getElementById('smilies-example-posting-link').title = '{L_SMILIESIGNS_EXAMPLE_BBCODE_HELP}'; } else { x.style.display = 'block';document.getElementById('smiley-box').style.display = 'none';document.getElementById('smiliesigns-posting-button').title = '{L_SMILIES_BBCODE_HELP}'; } }</script>
-		<span id="smiliesigns-posting-button" title="{L_SMILIESIGNS_BBCODE_HELP}">
-			<input id="smiliesigns" class="button2" name="smilie_signs" value="Signs" onclick="toggle_smiliesigns_posting_box();" type="button" />
-		</span>
-<!-- ELSEIF SCRIPT_NAME == "viewtopic" -->
-	<script>function toggle_smiliesigns_viewtopic_box() { var x = document.getElementById('smiliesigns-viewtopic-box'); if (x.style.display === 'block') { x.style.display = 'none';document.getElementById('smiley-box').style.display = 'block';document.getElementById('smiliesigns-viewtopic-button').title = '{L_SMILIESIGNS_BBCODE_HELP}';document.getElementById('smiliesigns-example-viewtopic-box').style.display = 'none';document.getElementById('smilies-example-viewtopic-link').title = '{L_SMILIESIGNS_EXAMPLE_BBCODE_HELP}'; } else { x.style.display = 'block';document.getElementById('smiley-box').style.display = 'none';document.getElementById('smiliesigns-viewtopic-button').title = '{L_SMILIES_BBCODE_HELP}'; } }</script>
-		<span id="smiliesigns-viewtopic-button" title="{L_SMILIESIGNS_BBCODE_HELP}">
-			<input id="smiliesigns" class="button2" name="smilie_signs" value="Signs" onclick="toggle_smiliesigns_viewtopic_box();" type="button" />
-		</span>
-<!-- ELSEIF SCRIPT_NAME == "index" -->
-	<script>function toggle_smiliesigns_index_box() { var x = document.getElementById('smiliesigns-index-box'); if (x.style.display === 'block') { x.style.display = 'none';document.getElementById('smiliesigns-example-index-box').style.display = 'none';document.getElementById('smilies-example-index-link').title = '{L_SMILIESIGNS_EXAMPLE_BBCODE_HELP}';document.getElementById('mchat-smilies').style.display = 'block';document.getElementById('chat_smilies').style.display = 'block';document.getElementById('smiliesigns-index-button').title = '{L_SMILIESIGNS_BBCODE_HELP}'; } else { x.style.display = 'block';document.getElementById('smiliesigns-index-button').title = '{L_SMILIES_BBCODE_HELP}';document.getElementById('mchat-smilies').style.display = 'none';document.getElementById('chat_smilies').style.display = 'none'; } }</script>
-		<span id="smiliesigns-index-button" title="{L_SMILIESIGNS_BBCODE_HELP}">
-			<input id="smiliesigns" class="button2" name="smilie_signs" value="Signs" onclick="toggle_smiliesigns_index_box();" type="button" />
-		</span>
-<!-- ELSE -->
-	<script>function toggle_smiliesigns_portal_box() { var x = document.getElementById('smiliesigns-portal-box'); if (x.style.display === 'block') { x.style.display = 'none';document.getElementById('smiliesigns-example-portal-box').style.display = 'none';document.getElementById('smilies-example-portal-link').title = '{L_SMILIESIGNS_EXAMPLE_BBCODE_HELP}';document.getElementById('smiliesigns-portal-button').title = '{L_SMILIESIGNS_BBCODE_HELP}';document.getElementById('chat_smilies').style.display = 'block';document.getElementById('mchat-smilies').style.display = 'block'; } else { x.style.display = 'block';document.getElementById('smiliesigns-portal-button').title = '{L_SMILIES_BBCODE_HELP}';document.getElementById('chat_smilies').style.display = 'none';document.getElementById('mchat-smilies').style.display = 'none'; } }</script>
-		<span id="smiliesigns-portal-button" title="{L_SMILIESIGNS_BBCODE_HELP}">
-			<input id="smiliesigns" class="button2" name="smilie_signs" value="Signs" onclick="toggle_smiliesigns_portal_box();" type="button" />
-		</span>
-<!-- ENDIF -->
+{% if U_USE_SMILIE_SIGNS_BBCODE && S_BBCODE_ALLOWED %}
+	<button type="button" onclick="popup_smiliecenter('./app.php/smiliesigns', {{ SMILIESIGNS_WIDTH }}, {{ SMILIESIGNS_HEIGHT }}, '_smiliesigns'); return false;" class="button button-icon-only" name="smilie_signs" value="&#160;" title="{{ lang('SMILIE_SIGNS_HELP') }}">
+		<i class="icon fa-smile-o fa-fw" aria-hidden="true"></i>
+	</button>
+{% endif %}

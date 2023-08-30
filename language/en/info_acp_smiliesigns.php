@@ -1,8 +1,8 @@
 <?php
 /**
- * @package Smilie Signs
- * @copyright (c) 2015 Sniper_E - http://sniper-e.com
- * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @package phpBB Extension - Smilie Signs
+* @copyright (c) 2015 Sniper_E - http://sniper-e.com
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 */
 
 /**
@@ -35,16 +35,11 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'SMILIE_SIGNS_CEDIT'   => 'Smilie Signs BBCode',
-	'SMILIE_SIGNS_CREDIT'  => 'by Sniper_E @ sniper-e.net',
-	'SMILIE_SIGNS_TITLE'   => 'Smilie Signs',
-	'SMILIESIGNS_NOACCESS' => 'You don’t have access to this section',
-	'SMILIESIGNS_DISABLE'  => 'Smilie Signs disabled',
-	'SMILIESIGNS_COUNT'    => 'One smilie',
-	'SMILIESIGNS_COUNTS'   => '<b>%d Smilie Signs</b>',
-	'SMILIESIGNS_MESSAGE'  => 'message',
-	'SMILIE_SIGNS_HELP'    => 'Smilie signs: [sign=smilie-name]message[/sign]',
-	'SMILIE_SIGNS_ICONS'   => 'Smilies per page',
-	'SMILIE_SIGNS_POPUP'   => 'Popup size',
-	'SMILIESIGNS_PX'       => 'px',
+	// ACP Extensions
+	'ACP_SMILIESIGNS_TITLE'		=> 'Smilie Signs',
+	'ACP_SMILIESIGNS_SETTINGS'	=> 'Settings',
+	'LOG_SMILIESIGNS_SAVED'		=> '<strong>Smilie signs settings saved.</strong>',
+	// Fa Button
+	'SMILIESIGNS_TITLE'          => 'Signs',
+	'SMILIESIGNS_HELP'           => 'Smilie sign: [sign=smilie-name]message[/sign]',
 ));
