@@ -1,8 +1,7 @@
 # Smilie Signs Extension
-# Version 1.0.4
 
 ## Discription
-Adds Font Awesome BBCode to posting.
+Sign BBCode will post an animated smilie holding up a sign with your message.
 
 ## Discription
 This extension will add a sign button with a smilie bbcode selection box for signs, replaces the smilies box.
