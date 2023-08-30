@@ -3,10 +3,6 @@
 ## Discription
 Sign BBCode will post an animated smilie holding up a sign with your message.
 
-## Discription
-This extension will add a sign button with a smilie bbcode selection box for signs, replaces the smilies box.
-An animated smilie will post holding a sign up with your message.
-
 ## Install
 1. Download the latest release and unzip the downloaded release.
 2. Copy `sniper/smiliesigns/*.*` folder to your forum `root/ext/sniper/smiliesigns/*.*`
