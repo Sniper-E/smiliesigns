@@ -1,8 +1,8 @@
-# Smilie Signs Extension
-# Version 1.0.5
+# Smilie Signs
+Version 1.0.5
 
 ## Discription
-Sign BBCode will post an animated smilie holding up a sign with your message.
+Smilie Sign BBCode will post an animated smilie holding up a sign with your message.
 
 ## Install
 1. Download the latest release and unzip the downloaded release.
