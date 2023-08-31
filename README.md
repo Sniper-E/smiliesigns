@@ -3,7 +3,7 @@ Version 1.0.5
 
 ## Discription
 Smilie Sign BBCode will post an animated smilie holding up a sign with your message.
-
+<img src="https://www.sniper-e.net/images/smiliesigns_example.gif" alt="" />
 ## Install
 1. Download the latest release and unzip the downloaded release.
 2. Copy `sniper/smiliesigns/*.*` folder to your forum `root/ext/sniper/smiliesigns/*.*`
