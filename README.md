@@ -1,4 +1,5 @@
 # Smilie Signs Extension
+# Version 1.0.5
 
 ## Discription
 Sign BBCode will post an animated smilie holding up a sign with your message.
@@ -11,16 +12,8 @@ Sign BBCode will post an animated smilie holding up a sign with your message.
 
 ## Update
 1. Download the latest release and unzip the downloaded release.
-5. Navigate in the ACP to `Customise -> Manage extensions` / Disable Smilie Signs and Delete data.
-2. Delete the `ext/sniper/smiliesigns` directory folder froum your server.
-3. Copy new files `sniper/smiliesigns/*.*` folder to your forum `ext/sniper/smiliesigns/` directory.
-4. Copy `sniper/smiliesigns/*.*` folder to your forum `root/ext/sniper/smiliesigns/*.*`
-5. Look for `Smilie Signs` under the Disabled Extensions list, and click its `Enable` link.
-
-## Uninstall
-1. Navigate in the ACP to `Customise -> Extension Management -> Extensions`.
-2. Look for `Smilie Signs` under the Enabled Extensions list, and click its `Disable` link.
-3. To permanently uninstall, click `Delete Data` and then delete the `/ext/sniper/smiliesigns/` directories.
+2. Navigate in the ACP to `Customise -> Manage extensions` / Disable Smilie Signs and Delete data.
+4. Install new version and enable the extension.
 
 ## License
 [GNU General Public License v2](http://opensource.org/licenses/GPL-2.0)
